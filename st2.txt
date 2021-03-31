@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <style>
+        body{
+            border: solid;
+        }
+            h2{
+                text-align: center;
+                margin-top: 10px;
+            }
+            Form{
+                text-align: center;
+                margin-top: 30px;
+                
+            }
+            button{
+               
+                position: center;
+                border: 3px solid black;
+               
+                margin-left: 520px;
+                position: absolute;
+                 width: 150px;
+            }
+            div{
+                position:center;
+            }
+            
+        </style>
+    </head>
+<body style="background-color:rgb(114, 263, 143);">
+    <div>
+<h2>Detail Form</h2>
+<hr style="background-color:black;">
+<form>
+    Name : <input type="text" id="a"><br>
+    <br>Mobile NO. : <input type="text" id="b"><br>
+    <br>Email ID: <input type="text" id="c" placeholder="eg:abc@gmail.com"><br>
+</form>
+<button id="d" style="background-color:orange;">SUBMIT</button><br>
+<hr>
+</div>
+</body>
+</html>
